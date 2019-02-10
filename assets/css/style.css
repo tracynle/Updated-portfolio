@@ -1,0 +1,152 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Muli', sans-serif;
+}
+.main-container {
+    width: 960px;
+    margin-top: 30px;
+}
+
+/* Welcome page/ Index/ Home */
+.welcome {
+    background-color: white;
+    padding: 40px;
+
+}
+.welcomeimage, 
+#portfolioimage {
+    margin-left: 5%;
+    margin-bottom: 30px;
+    margin-right: 5%;
+    position: relative;
+    max-width: 90%;
+
+}
+#welcometext, 
+#portfoliotext {
+    font-family: 'Homemade Apple', cursive;
+    font-size: 60px;
+    position: absolute;
+    top: 50%;
+    left: 60%;
+    transform: translate(-18%, 60%);
+    color: white;
+}
+/* Nav menu*/
+.mainnavbar {
+    overflow: auto;
+    background-color: white;
+    border: black;
+}
+.navname {
+    background-color: white;
+    width: 100%;
+    font-size: 40px;
+    padding: 30px;
+    margin-bottom: 15px;
+    margin-top: -1px;
+    text-align: center;
+    letter-spacing: 15px;
+}
+.navbar {
+    font-size: 18px;
+}
+.navbar-nav {
+    letter-spacing: 3px;
+}
+.nav-link {
+    margin: 18px;
+}
+a {
+    color: black;
+}
+/* Images */
+.lajollaimage, 
+.contactimage, 
+.welcomeimage {
+    padding: 35px;
+}
+#aboutsection {
+    font-size: 18px;
+    margin-top: 10px;
+}
+#contactsection {
+    font-size: 18px;
+    margin-top: 30px;
+}
+hr {
+    width: 400px;
+}
+/* Contact Form */
+.contact-form {
+    width: 20%;
+    margin-left: 2%;
+    float: left;
+}
+.contact-form .title {
+    font-size: 2.5em;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    color: #242424;
+    margin: 14% 7%;
+}
+.contact-form .subtitle {
+    font-size: 1.2em;
+    font-weight: 400;
+    margin: 0 4% 5% 8%;
+}
+.contact-form input,
+.contact-form textarea {
+    width: 350px;
+    padding: 3%;
+    margin: 2% 8%;
+    color: #242424;
+    border: 1px solid #B7B7B7;
+}
+.contact-form input::placeholder,
+.contact-form textarea::placeholder {
+    color: #242424;
+}
+.contact-form .btn-send {
+    background: rgb(237, 197, 136);
+    width: 150px;
+    height: 40px;
+    color: #FFFFFF;
+    font-weight: 700;
+    margin: 2% 8%;
+    border: none;
+}
+/* Footer */
+footer {
+  background-color: white;
+  color: black;
+  text-align: center;
+  padding: 10px;
+  clear: both;
+}
+/* Media Queries */
+@media screen and (max-width:768px) {
+    #container, 
+    #intro,
+    .lajollaimage {
+        width: 100%;
+    }
+    #aboutsection  {
+        width: 70%;
+    }
+    #welcometext, #portfoliotext {
+        width: 70%;
+        font-size: 30px;
+    }
+}
+@media screen and (max-width:320px) {
+    #left-column,
+    #right-column,
+    #aboutsection
+    .lajollaimage {
+        width: 100%;
+    }
+    
+}
