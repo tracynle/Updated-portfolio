@@ -54,7 +54,7 @@ body {
     text-align: center;
 }
 /* Nav menu*/
-.mainnavbar {
+/* .mainnavbar {
     overflow: auto;
     background-color: white;
     border: black;
@@ -78,6 +78,10 @@ body {
 .nav-link {
     margin: 18px;
     font-size: 18px;
+} */
+#name {
+    text-align: center;
+    font-size: 40px;
 }
 a {
     color: black;
@@ -85,7 +89,8 @@ a {
 /* Images */
 .lajollaimage, 
 .contactimage, 
-.welcomeimage {
+.welcomeimage,
+.portfolioimage {
     padding: 35px;
 }
 #aboutsection {
