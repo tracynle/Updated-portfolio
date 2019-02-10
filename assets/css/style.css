@@ -9,7 +9,7 @@ body {
     margin-top: 30px;
 }
 
-/* Welcome page/ Index/ Home */
+/* Welcome page/ Index/ Home/ About */
 .welcome {
     background-color: white;
     padding: 40px;
@@ -24,6 +24,22 @@ body {
     max-width: 90%;
 
 }
+#keeptext {
+    font-family: 'Homemade Apple', cursive;
+    font-size: 30px;
+    position: absolute;
+    color: white;
+    top: 50%;
+    left: 60%;
+    transform: translate(-121%, -221%);
+    letter-spacing: 2px;
+
+}
+.contactimage {
+    position: relative;
+    max-width: 90%;
+
+}
 #welcometext, 
 #portfoliotext {
     font-family: 'Homemade Apple', cursive;
@@ -33,6 +49,9 @@ body {
     left: 60%;
     transform: translate(-18%, 60%);
     color: white;
+}
+#links {
+    text-align: center;
 }
 /* Nav menu*/
 .mainnavbar {
@@ -58,6 +77,7 @@ body {
 }
 .nav-link {
     margin: 18px;
+    font-size: 18px;
 }
 a {
     color: black;
@@ -71,6 +91,7 @@ a {
 #aboutsection {
     font-size: 18px;
     margin-top: 10px;
+    font-family: 'Muli', sans-serif;
 }
 #contactsection {
     font-size: 18px;
@@ -87,7 +108,7 @@ hr {
 }
 .contact-form .title {
     font-size: 2.5em;
-    font-family: "Roboto", sans-serif;
+    font-family: 'Muli', sans-serif;
     font-weight: 300;
     color: #242424;
     margin: 14% 7%;
@@ -128,15 +149,16 @@ footer {
 }
 /* Media Queries */
 @media screen and (max-width:768px) {
-    #container, 
-    #intro,
-    .lajollaimage {
+    #container {
         width: 100%;
     }
-    #aboutsection  {
+    #aboutsection,
+    .lajollaimage,
+    .contactimage  {
         width: 70%;
     }
-    #welcometext, #portfoliotext {
+    #welcometext, 
+    #portfoliotext {
         width: 70%;
         font-size: 30px;
     }
